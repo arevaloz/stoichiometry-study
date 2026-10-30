@@ -9,15 +9,15 @@
     <meta name="theme-color" content="#1a2c28" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Stoich Study" />
-    <title>Stoichiometry Study</title>
+    <meta name="apple-mobile-web-app-title" content="Chem Study" />
+    <title>Chem Study</title>
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Great+Vibes&family=Source+Sans+3:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -25,46 +25,96 @@
   <body>
     <div class="atmosphere" aria-hidden="true"></div>
 
-    <header class="top">
-      <p class="brand">Stoichiometry Study</p>
-      <p class="progress" id="progress">Card 1 of 1</p>
+    <header class="app-bar">
+      <p class="brand">Chem Study</p>
+      <label class="mode-picker">
+        <span class="mode-picker-label">Mode</span>
+        <select id="modeSelect" aria-label="Choose Flashcards or Pictures">
+          <option value="flashcards">Flashcards</option>
+          <option value="pictures">Pictures</option>
+        </select>
+      </label>
     </header>
 
-    <main class="stage">
-      <p class="deck-label" id="deckLabel">Concepts</p>
+    <div class="shell">
+      <nav class="side-tabs" aria-label="Chapter tabs">
+        <button type="button" class="side-tab active" data-section="ch6">
+          Ch 6
+        </button>
+        <button type="button" class="side-tab" data-section="ch7">
+          Ch 7
+        </button>
+        <button type="button" class="side-tab" data-section="stoich">
+          Stoichiometry
+        </button>
+      </nav>
 
-      <button
-        type="button"
-        class="card"
-        id="card"
-        aria-live="polite"
-        aria-label="Flashcard. Click or press space to flip."
-      >
-        <span class="card-hint" id="cardHint">Tap to flip</span>
-        <span class="card-text" id="cardText"></span>
-      </button>
+      <div class="content">
+        <div class="status-row">
+          <p class="deck-label" id="deckLabel">Ch 6 Compounds</p>
+          <p class="progress" id="progress">Card 1 of 1</p>
+        </div>
 
-      <div class="actions" id="actions" hidden>
-        <button type="button" class="btn again" id="againBtn">Again</button>
-        <button type="button" class="btn got-it" id="gotItBtn">Got it</button>
+        <section class="mode-panel" id="flashcardsPanel">
+          <main class="stage">
+            <button
+              type="button"
+              class="card"
+              id="card"
+              aria-live="polite"
+              aria-label="Flashcard. Click or press space to flip."
+            >
+              <span class="card-hint" id="cardHint">Tap to flip</span>
+              <span class="card-text" id="cardText"></span>
+            </button>
+
+            <div class="actions" id="actions" hidden>
+              <button type="button" class="btn again" id="againBtn">Again</button>
+              <button type="button" class="btn got-it" id="gotItBtn">Got it</button>
+            </div>
+
+            <p class="help" id="help">
+              Flip the card, then mark whether you knew it.
+            </p>
+          </main>
+
+          <nav class="decks" id="subDecks" aria-label="Stoichiometry decks" hidden>
+            <button type="button" class="deck active" data-deck="concepts">
+              Concepts
+            </button>
+            <button type="button" class="deck" data-deck="balancing">
+              Balancing
+            </button>
+            <button type="button" class="deck" data-deck="stoichiometry">
+              Practice
+            </button>
+          </nav>
+        </section>
+
+        <section class="mode-panel" id="picturesPanel" hidden>
+          <main class="stage picture-stage">
+            <div class="picture-frame" id="pictureFrame">
+              <img id="pictureImage" alt="" hidden />
+              <p class="picture-empty" id="pictureEmpty">
+                No pictures here yet.<br />
+                Add image files and tell me where they are.
+              </p>
+            </div>
+
+            <div class="actions" id="pictureActions" hidden>
+              <button type="button" class="btn again" id="prevPicBtn">Previous</button>
+              <button type="button" class="btn got-it" id="nextPicBtn">Next</button>
+            </div>
+
+            <p class="help" id="pictureHelp">
+              Use the side tabs to switch picture sets.
+            </p>
+          </main>
+        </section>
+
+        <p class="signature">Serg</p>
       </div>
-
-      <p class="help" id="help">
-        Flip the card, then mark whether you knew it.
-      </p>
-    </main>
-
-    <nav class="decks" aria-label="Deck chooser">
-      <button type="button" class="deck active" data-deck="concepts">
-        Concepts
-      </button>
-      <button type="button" class="deck" data-deck="balancing">
-        Balancing
-      </button>
-      <button type="button" class="deck" data-deck="stoichiometry">
-        Stoichiometry
-      </button>
-    </nav>
+    </div>
 
     <script src="app.js"></script>
     <script>

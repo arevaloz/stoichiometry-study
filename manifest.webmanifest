@@ -1,7 +1,7 @@
 {
-  "name": "Stoichiometry Study",
-  "short_name": "Stoich Study",
-  "description": "Interactive flashcards for balancing equations and stoichiometry.",
+  "name": "Chem Study",
+  "short_name": "Chem Study",
+  "description": "Interactive flashcards for chemistry study guides.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
