@@ -88,6 +88,42 @@ const decks = {
       front: "Formula for calcium phosphate?",
       back: "Ca₃(PO₄)₂",
     },
+    {
+      front: "Draw K + Br as an ionic bond.\nWhat ions and formula?",
+      back: "K has 1 valence e⁻, Br has 7.\nK gives 1 e⁻ → K⁺ and Br⁻ (8 dots).\nFormula: KBr",
+    },
+    {
+      front: "How many shared electrons in CO₂?",
+      back: "2 double bonds × 4 electrons each = 8 shared electrons",
+    },
+    {
+      front: "Ball-and-stick colors:\nred, black, blue, white?",
+      back: "red = O\nblack = C\nblue = N\nwhite = H",
+    },
+    {
+      front: "Ionic lattice vs. molecules — melting?",
+      back: "Ionic lattice: many neighbors hold each ion → high melting (NaCl ~801 °C).\nMolecules: weak attractions → low melting (ice 0 °C).",
+    },
+    {
+      front: "Name Cu(NO₃)₂ using the flowchart.",
+      back: "Metal → ionic. Cu is transition.\n2 NO₃⁻ = −2 → Cu is +2.\ncopper(II) nitrate",
+    },
+    {
+      front: "Mg and O react. Electrons? Formula?",
+      back: "Mg gives 2 e⁻.\nFormula: MgO",
+    },
+    {
+      front: "Criss-cross Fe³⁺ and SO₄²⁻.\nFormula and name?",
+      back: "Fe₂(SO₄)₃\niron(III) sulfate",
+    },
+    {
+      front: "Name CuO and SF₆.",
+      back: "CuO → copper(II) oxide\nSF₆ → sulfur hexafluoride",
+    },
+    {
+      front: "Phosphorus ion? Compound with Na?",
+      back: "Group 15 → P³⁻\nNa₃P, sodium phosphide",
+    },
   ],
   reactions: [
     {
@@ -189,6 +225,42 @@ const decks = {
     {
       front: "Moles in 36.0 g H₂O?",
       back: "36.0 ÷ 18.015 = 2.00 mol",
+    },
+    {
+      front: "OIL RIG — what does it mean?",
+      back: "Oxidation Is Loss (of electrons)\nReduction Is Gain (of electrons)\nBoth always happen together.",
+    },
+    {
+      front: "2 Al + 3 Sn²⁺ → 2 Al³⁺ + 3 Sn\nOxidized? Reduced?",
+      back: "Al is oxidized (0 → +3, loses e⁻).\nSn²⁺ is reduced (+2 → 0, gains e⁻).",
+    },
+    {
+      front: "Exothermic vs. endothermic?",
+      back: "Exothermic: gives off heat, ΔH negative, products lower.\nEndothermic: takes in heat, ΔH positive, products higher.",
+    },
+    {
+      front: "N₂ + O₂ + 181 kJ → 2 NO\nExo or endo? ΔH?",
+      back: "Endothermic (heat on reactant side)\nΔH = +181 kJ",
+    },
+    {
+      front: "CH₄ + 2 O₂ → CO₂ + 2 H₂O + 890 kJ\nWrite ΔH. Exo or endo?",
+      back: "ΔH = −890 kJ\nExothermic (heat is a product)",
+    },
+    {
+      front: "Pb(NO₃)₂(aq) + 2 KI(aq) → ?\nSolid? Spectators?",
+      back: "PbI₂(s) + 2 KNO₃(aq)\nSolid: PbI₂\nSpectators: K⁺ and NO₃⁻",
+    },
+    {
+      front: "Mg + CuCl₂ → MgCl₂ + Cu\nOxidized? Reduced?",
+      back: "Mg oxidized (0 → +2)\nCu²⁺ reduced (+2 → 0)",
+    },
+    {
+      front: "Name the type:\nC₂H₅OH + 3 O₂ → 2 CO₂ + 3 H₂O",
+      back: "Combustion\n(fuel + O₂ → CO₂ + H₂O)",
+    },
+    {
+      front: "Balance: __ Al + __ O₂ → __ Al₂O₃",
+      back: "4 Al + 3 O₂ → 2 Al₂O₃\n(4 Al and 6 O each side)",
     },
   ],
   concepts: [
@@ -300,6 +372,42 @@ const decks = {
       front: "Given grams A, asked grams B — which steps?",
       back: "Steps 1 + 2 + 3\ng → mol → ratio → mol → g",
     },
+    {
+      front: "Molecules in 0.250 mol CO₂?",
+      back: "0.250 × 6.022 × 10²³ = 1.51 × 10²³ molecules",
+    },
+    {
+      front: "Atoms in 24.0 g carbon?",
+      back: "24.0 ÷ 12.011 ≈ 1.998 mol\n× 6.022 × 10²³ ≈ 1.20 × 10²⁴ atoms",
+    },
+    {
+      front: "N₂ + 3 H₂ → 2 NH₃\nmol NH₃ from 4.5 mol H₂?",
+      back: "4.5 × (2/3) = 3.0 mol NH₃",
+    },
+    {
+      front: "Burn 7.60 g ethanol.\nGrams O₂ needed?\n(C₂H₅OH + 3 O₂ → …)",
+      back: "≈ 15.8 g O₂\n(7.60 ÷ 46.069 → ×3 → ×31.998)",
+    },
+    {
+      front: "2 H₂ + O₂ → 2 H₂O\n3.0 mol H₂ + 2.0 mol O₂\nLimiting? mol H₂O?",
+      back: "H₂ limiting → 3.0 mol H₂O\n(O₂ could make 4.0 mol)",
+    },
+    {
+      front: "Theory 50.0 g, actual 42.5 g.\nPercent yield?",
+      back: "42.5 ÷ 50.0 × 100% = 85.0%",
+    },
+    {
+      front: "CH₄ + 2 O₂ → CO₂ + 2 H₂O\nΔH = −890 kJ\nHeat from 32.0 g CH₄?",
+      back: "≈ 1.78 × 10³ kJ released\n(32.0 ÷ 16.043 × 890)",
+    },
+    {
+      front: "CaO + H₂O → Ca(OH)₂\nΔH = −65.2 kJ\ng CaO for 100. kJ?",
+      back: "≈ 86.0 g CaO\n(100 ÷ 65.2 × 56.077)",
+    },
+    {
+      front: "2 Al + 3 Cl₂ → 2 AlCl₃\n2.0 mol Al + 2.0 mol Cl₂\nLimiting? mol AlCl₃?",
+      back: "Cl₂ limiting\n2.0 × (2/3) = 1.3 mol AlCl₃",
+    },
   ],
 };
 
@@ -329,15 +437,177 @@ const sections = {
   },
 };
 
-// Add picture paths here later, e.g. { src: "images/ch6/ions.png", title: "Ions" }
 const pictureAlbums = {
-  ch6: [],
-  ch7: [],
-  stoich: [],
+  ch6: [
+    {
+      src: "images/ch6/fig-01.png",
+      title: "Ionic Bonds: an Electron Moves",
+      blurb:
+        "Dots show valence electrons, the outer electrons. In an ionic bond, a metal hands an electron to a nonmetal. Both end up with a full outer shell.",
+      tab: "Na is like someone with one coin they don't want. Cl is one coin short of a full set. The coin changes hands, and both are happy.",
+    },
+    {
+      src: "images/ch6/fig-02.png",
+      title: "Covalent Bonds: Electrons Are Shared",
+      blurb:
+        "Two nonmetals both want electrons. Neither can win, so they share pairs. A shared pair is a bond line.",
+    },
+    {
+      src: "images/ch6/fig-03.png",
+      title: "Ball-and-Stick Models",
+      blurb:
+        "Balls are atoms. Sticks are shared bonds. Two sticks side by side mean a double bond. Models show the real shape. Colors: red = O, black = C, blue = N, white = H.",
+    },
+    {
+      src: "images/ch6/fig-04.png",
+      title: "The Periodic Table Tells You the Charge",
+      blurb:
+        "Find the group, read the charge. The color shows the charge for every element in that column.",
+      tab: "The columns are like floors in a building. Everyone on the same floor has the same charge.",
+    },
+    {
+      src: "images/ch6/fig-05.png",
+      title: "The Criss-Cross Method",
+      blurb:
+        "Each charge number drops down to the other ion. Keep polyatomic ions in parentheses when you need more than one.",
+    },
+    {
+      src: "images/ch6/fig-06.png",
+      title: "Crystal Lattice vs. Separate Molecules",
+      blurb:
+        "Ionic compounds form a giant repeating grid. Molecular compounds are separate small units.",
+      tab: "An ionic lattice is like a checkerboard with no end. Molecules are like separate marbles in a jar.",
+    },
+    {
+      src: "images/ch6/fig-07.png",
+      title: "Naming Flowchart",
+      blurb:
+        "Follow the arrows from the top. Ask: metal or not? Then: transition metal? Then: polyatomic ion?",
+    },
+    {
+      src: "images/ch6/fig-08.png",
+      title: "Polyatomic Ions as Pictures",
+      blurb:
+        "A polyatomic ion is a group of atoms that carries one charge together. The brackets show the group. The number outside is the charge of the whole group.",
+      tab: "A polyatomic ion is like a band. It moves, gets named, and gets counted as one unit.",
+    },
+  ],
+  ch7: [
+    {
+      src: "images/ch7/fig-01.png",
+      title: "Combination (Synthesis)",
+      blurb:
+        "A + B → AB. Two or more things join into one, like Lego pieces snapping together.",
+    },
+    {
+      src: "images/ch7/fig-02.png",
+      title: "Decomposition",
+      blurb:
+        "AB → A + B. One thing breaks into simpler parts, like taking a Lego model apart.",
+    },
+    {
+      src: "images/ch7/fig-03.png",
+      title: "Single Replacement",
+      blurb:
+        "A + BC → AC + B. One element kicks another out of its compound, like someone cutting in at a dance.",
+    },
+    {
+      src: "images/ch7/fig-04.png",
+      title: "Double Replacement",
+      blurb: "AB + CD → AD + CB. Two couples swap partners at a dance.",
+    },
+    {
+      src: "images/ch7/fig-05.png",
+      title: "Combustion",
+      blurb:
+        "Fuel + O₂ → CO₂ + H₂O. A fuel burns in oxygen and gives off heat and light, like a gas stove.",
+      tab: "Tip: Combination ends with ONE product. Decomposition starts with ONE reactant. Single replacement has an element alone on each side. Double replacement has two compounds on each side. Combustion has O₂ in and CO₂ + H₂O out.",
+    },
+    {
+      src: "images/ch7/fig-06.png",
+      title: "A Precipitate Forming",
+      blurb:
+        "Two clear solutions mix. Two ions find each other and lock into a solid. The solid sinks. That solid is the precipitate.",
+      tab: "Like sand settling to the bottom of a glass of water. Or like snow forming in a cloud and falling.",
+    },
+    {
+      src: "images/ch7/fig-07.png",
+      title: "Balancing, Drawn Out",
+      blurb:
+        "Balancing means the same atoms show up on both sides. A bar chart of atom counts makes a mismatch easy to see.",
+    },
+    {
+      src: "images/ch7/fig-08.png",
+      title: "Oxidation and Reduction (Redox)",
+      blurb:
+        "Electrons jump from one atom to another. The atom that loses electrons is oxidized. The atom that gains them is reduced. Both always happen together. Memory trick: OIL RIG.",
+      tab: "Electrons are like a ball being passed. One player throws (oxidized), one catches (reduced). You can't have a throw without a catch.",
+    },
+    {
+      src: "images/ch7/fig-09.png",
+      title: "Exothermic vs. Endothermic",
+      blurb:
+        "Left: products sit lower, so energy is given off (exothermic). Right: products sit higher, so energy is taken in (endothermic).",
+      tab: "Exothermic is like a ball rolling downhill: it gives off energy. Endothermic is pushing the ball uphill: you must put energy in.",
+    },
+  ],
+  stoich: [
+    {
+      src: "images/stoich/fig-01.png",
+      title: "A Mole Is a Counting Word",
+      blurb: "A dozen counts eggs. A mole counts atoms. Both are just a set number.",
+    },
+    {
+      src: "images/stoich/fig-02.png",
+      title: "The Mole Map",
+      blurb:
+        "Start at what you are given. Follow arrows to what you want. You always pass through moles.",
+      tab: "Moles are like the central train station. To get from one town to another, you go through the station. Tip: Particles and grams never connect directly — go to moles first.",
+    },
+    {
+      src: "images/stoich/fig-03.png",
+      title: "The Recipe Analogy",
+      blurb:
+        "A balanced equation is a recipe. The coefficients are the amounts.",
+    },
+    {
+      src: "images/stoich/fig-04.png",
+      title: "Mole Ratios as Particle Pictures",
+      blurb:
+        "Left: one batch. Right: a double batch. The ratio never changes.",
+    },
+    {
+      src: "images/stoich/fig-05.png",
+      title: "Limiting Reactant: Hot Dogs and Buns",
+      blurb:
+        "Whatever runs out first limits how much you can make. Turn each reactant into moles, see how much product each could make — the smaller answer wins.",
+    },
+    {
+      src: "images/stoich/fig-06.png",
+      title: "Burning Ethanol Worked Example",
+      blurb:
+        "C₂H₅OH + 3 O₂ → 2 CO₂ + 3 H₂O. Start from grams of ethanol, go through moles, then find grams of O₂, H₂O, and CO₂.",
+      tab: "Tip: Mass check — 7.60 g + 15.8 g in ≈ 8.92 g + 14.5 g out (23.4 g each side). Mass is conserved!",
+    },
+    {
+      src: "images/stoich/fig-07.png",
+      title: "Percent Yield",
+      blurb:
+        "Percent yield = actual ÷ theoretical × 100%. Theoretical comes from stoichiometry. Actual is what you weighed in lab.",
+      tab: "A recipe says 24 cookies. You get 18 because some burned. 18 ÷ 24 = 75% yield.",
+    },
+    {
+      src: "images/stoich/fig-08.png",
+      title: "Enthalpy Stoichiometry: kJ per Mole",
+      blurb:
+        "ΔH in a balanced equation is the heat for the amounts as written. Treat it like one more ratio: kJ per mole. Grams → moles → kJ.",
+      tab: "Tip: Negative ΔH means heat is released. Say “released” and give the size, or write q = −795 kJ for the system.",
+    },
+  ],
 };
 
 let currentMode = "flashcards";
-let currentSection = "ch6";
+let currentSection = "stoich";
 let currentDeck = "compounds";
 let index = 0;
 let showingBack = false;
@@ -360,7 +630,9 @@ const subDecks = document.getElementById("subDecks");
 const pictureImage = document.getElementById("pictureImage");
 const pictureEmpty = document.getElementById("pictureEmpty");
 const pictureActions = document.getElementById("pictureActions");
-const pictureHelp = document.getElementById("pictureHelp");
+const pictureTitle = document.getElementById("pictureTitle");
+const pictureBlurb = document.getElementById("pictureBlurb");
+const pictureTab = document.getElementById("pictureTab");
 const prevPicBtn = document.getElementById("prevPicBtn");
 const nextPicBtn = document.getElementById("nextPicBtn");
 
@@ -405,16 +677,19 @@ function renderFlashcards() {
 
 function renderPictures() {
   const pics = currentPictures();
-  const section = sections[currentSection];
-  deckLabel.textContent = section.pictureLabel;
+  deckLabel.textContent = sections[currentSection].pictureLabel;
 
   if (pics.length === 0) {
     pictureImage.hidden = true;
     pictureImage.removeAttribute("src");
     pictureEmpty.hidden = false;
     pictureActions.hidden = true;
-    progressEl.textContent = "0 pictures";
-    pictureHelp.textContent = "Add pictures for this chapter and I’ll hook them up.";
+    pictureBlurb.hidden = true;
+    pictureBlurb.textContent = "";
+    pictureTab.hidden = true;
+    pictureTab.textContent = "";
+    pictureTitle.textContent = "No pictures";
+    progressEl.textContent = "0 of 0";
     return;
   }
 
@@ -426,12 +701,26 @@ function renderPictures() {
   pictureEmpty.hidden = true;
   pictureImage.hidden = false;
   pictureImage.src = pic.src;
-  pictureImage.alt = pic.title || `Picture ${pictureIndex + 1}`;
+  pictureImage.alt = pic.title;
+  pictureTitle.textContent = pic.title;
   pictureActions.hidden = false;
-  progressEl.textContent = `Picture ${pictureIndex + 1} of ${pics.length}`;
-  pictureHelp.textContent = pic.title
-    ? pic.title
-    : "Use Previous / Next to look through the set.";
+  progressEl.textContent = `${pictureIndex + 1} of ${pics.length}`;
+
+  if (pic.blurb) {
+    pictureBlurb.hidden = false;
+    pictureBlurb.textContent = pic.blurb;
+  } else {
+    pictureBlurb.hidden = true;
+    pictureBlurb.textContent = "";
+  }
+
+  if (pic.tab) {
+    pictureTab.hidden = false;
+    pictureTab.textContent = pic.tab;
+  } else {
+    pictureTab.hidden = true;
+    pictureTab.textContent = "";
+  }
 }
 
 function render() {
@@ -509,6 +798,7 @@ function setMode(mode) {
   modeSelect.value = mode;
   flashcardsPanel.hidden = mode !== "flashcards";
   picturesPanel.hidden = mode !== "pictures";
+  document.body.classList.toggle("mode-pictures", mode === "pictures");
   setSection(currentSection);
 }
 
