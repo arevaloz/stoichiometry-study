@@ -1,0 +1,18 @@
+{
+  "name": "Stoichiometry Study",
+  "short_name": "Stoich Study",
+  "description": "Interactive flashcards for balancing equations and stoichiometry.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1a2c28",
+  "theme_color": "#1a2c28",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
